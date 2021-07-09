@@ -1,0 +1,236 @@
+
+*{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Times New Romen', serif;
+	background-color: #F6DCBF;
+
+}
+
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+	border-bottom: 1px solid pink;
+}
+
+.logo a{
+	font-size: 70px;
+	font-weight: bold;
+	float: left;
+	font-family: 'Brush Script MT', cursive;
+	color: #362222;
+	z-index: 1;
+	text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+
+}
+
+.menu {
+	float: right;
+
+}
+
+nav {
+	width: 100%
+	margin: auto;
+	display: flex;
+	line-height: 100px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: pink;
+	z-index: 1;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+	background-color: purple;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	background-color: #C6B4CE;
+}
+
+nav ul li a:active {
+	text-decoration:none;
+	background-color: #FDD2BF;
+}
+
+section {
+	margin: auto;
+	display: flex;
+	margin-top: 50px;
+}
+
+.column {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.column .descreption {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'comic sans mc';
+	color: #52006A;
+}
+
+h2 {
+	font-family: 'comic sans mc';
+	font-weight: 800;
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: #52006A;
+	width: 100%;
+	line-height: 50px;  
+}
+
+p{
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.center{
+	text-align: center;
+	width: 100%;
+}
+
+.University-Image {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.UiTM-KB-Kelantan{
+	width: 20%;
+	margin: 0 auto;
+}
+
+.UiTM-KB-Kelantan img {
+	width:100%;
+	border-radius: 20%;
+}
+
+.UiTM-KB-Kelantan p {
+	font-family: 'times new romen'
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	color: #362222;
+}
+
+.descreption{
+	font-family: 'comic sans mc';
+	color: purple;
+}
+
+.container {
+	max-width: 936px;
+	margin: auto;
+	background: #F4A9A8;
+	overflow: auto;
+}
+.Family{
+	margin: 5px;
+	border: 1px solid #FAEBE0;
+	float: left;
+	width: 300px;
+}
+
+.Family img{
+	width: 50%;
+	height: auto;
+}
+
+.desc {
+	padding: 5px;
+	text-align: center;
+	font-family: 'times new romen';
+	color: #053742;
+}
+
+#Follow-me{
+	background: #dedede;
+	padding: auto;
+}
+
+.footer{
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	background: pink;
+}
+
+.footer-section{
+	width: 20%;
+	margin: 0 auto;
+}
+
+h3{
+	font-family: 'comic sans ms'
+	font-weight: 80px;
+	font-size: 30px;
+	margin: 30px;
+	color: #52006A;
+	width: 100%;
+	line-height: 50px;
+}
+
+#copyright{
+	text-align: center;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+	.wrapper {
+		width: 90%;
+	}
+
+	.logo a{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav.menu{
+		width: 100%;
+		margin: 0;
+	}
+
+	nav ul {
+		text-align: center;
+		margin: auto;
+		line-height: 60px;
+	}
+
+	nav ul li{
+		display: inline-block;
+		float: none;
+	}	
+}
